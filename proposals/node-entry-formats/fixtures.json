@@ -1,0 +1,150 @@
+[
+  {
+    "offer": "ethers-js",
+    "package": "ethers",
+    "version": "6.17.0",
+    "source": "https://registry.npmjs.org/ethers/6.17.0",
+    "formats": [
+      "ESM",
+      "CommonJS"
+    ],
+    "manifest": {
+      "name": "ethers",
+      "version": "6.17.0",
+      "main": "./lib.commonjs/index.js",
+      "exports": {
+        ".": {
+          "import": "./lib.esm/index.js",
+          "default": "./lib.commonjs/index.js"
+        },
+        "./abi": {
+          "import": "./lib.esm/abi/index.js",
+          "default": "./lib.commonjs/abi/index.js"
+        },
+        "./address": {
+          "import": "./lib.esm/address/index.js",
+          "default": "./lib.commonjs/address/index.js"
+        },
+        "./constants": {
+          "import": "./lib.esm/constants/index.js",
+          "default": "./lib.commonjs/constants/index.js"
+        },
+        "./contract": {
+          "import": "./lib.esm/contract/index.js",
+          "default": "./lib.commonjs/contract/index.js"
+        },
+        "./crypto": {
+          "import": "./lib.esm/crypto/index.js",
+          "default": "./lib.commonjs/crypto/index.js"
+        },
+        "./hash": {
+          "import": "./lib.esm/hash/index.js",
+          "default": "./lib.commonjs/hash/index.js"
+        },
+        "./providers": {
+          "import": "./lib.esm/providers/index.js",
+          "default": "./lib.commonjs/providers/index.js"
+        },
+        "./transaction": {
+          "import": "./lib.esm/transaction/index.js",
+          "default": "./lib.commonjs/transaction/index.js"
+        },
+        "./utils": {
+          "import": "./lib.esm/utils/index.js",
+          "default": "./lib.commonjs/utils/index.js"
+        },
+        "./wallet": {
+          "import": "./lib.esm/wallet/index.js",
+          "default": "./lib.commonjs/wallet/index.js"
+        },
+        "./wordlists": {
+          "import": "./lib.esm/wordlists/index.js",
+          "default": "./lib.commonjs/wordlists/index.js"
+        }
+      }
+    },
+    "entry_evidence": [
+      {
+        "condition": "import",
+        "path": "./lib.esm/index.js",
+        "package_scope": "package/lib.esm/package.json",
+        "declared_type": "module",
+        "size_bytes": 350,
+        "sha256": "586bc08ce4c6bdb64f2972f9284f9eca568b7211f33c387d5b83f63887ffc468"
+      },
+      {
+        "condition": "default",
+        "path": "./lib.commonjs/index.js",
+        "package_scope": "package/lib.commonjs/package.json",
+        "declared_type": "commonjs",
+        "size_bytes": 540,
+        "sha256": "17771082edebd848a7e261149bbbbe3221e58825517dc79255a4b9376f21ad82"
+      }
+    ],
+    "archive": {
+      "filename": "npm-ethers-6.17.0.tgz",
+      "url": "https://registry.npmjs.org/ethers/-/ethers-6.17.0.tgz",
+      "integrity": "sha512-BpyrpIPJ3ydEVow8zGaz1DuPS7YU8DcWxuBnY9a0UA/lvAPwrMr+EPXsfrul628SRaekPNeIM4UFh/91GWZang=="
+    }
+  },
+  {
+    "offer": "synapse-sdk",
+    "package": "@filoz/synapse-sdk",
+    "version": "2.0.2",
+    "source": "https://registry.npmjs.org/@filoz/synapse-sdk/2.0.2",
+    "formats": [
+      "ESM"
+    ],
+    "manifest": {
+      "name": "@filoz/synapse-sdk",
+      "version": "2.0.2",
+      "type": "module",
+      "main": "dist/src/index.js",
+      "exports": {
+        ".": {
+          "import": "./dist/src/index.js",
+          "types": "./dist/src/index.d.ts"
+        },
+        "./payments": {
+          "import": "./dist/src/payments/index.js",
+          "types": "./dist/src/payments/index.d.ts"
+        },
+        "./session": {
+          "import": "./dist/src/session/index.js",
+          "types": "./dist/src/session/index.d.ts"
+        },
+        "./storage": {
+          "import": "./dist/src/storage/index.js",
+          "types": "./dist/src/storage/index.d.ts"
+        },
+        "./warm-storage": {
+          "import": "./dist/src/warm-storage/index.js",
+          "types": "./dist/src/warm-storage/index.d.ts"
+        },
+        "./sp-registry": {
+          "import": "./dist/src/sp-registry/index.js",
+          "types": "./dist/src/sp-registry/index.d.ts"
+        },
+        "./filbeam": {
+          "import": "./dist/src/filbeam/index.js",
+          "types": "./dist/src/filbeam/index.d.ts"
+        }
+      }
+    },
+    "entry_evidence": [
+      {
+        "condition": "import",
+        "path": "./dist/src/index.js",
+        "package_scope": "package/dist/package.json",
+        "declared_type": "module",
+        "size_bytes": 287,
+        "sha256": "087fbc16189e01701abab63923650391c22878b7cd815282f6e424184a6c8271"
+      }
+    ],
+    "archive": {
+      "filename": "npm-synapse-sdk-2.0.2.tgz",
+      "url": "https://registry.npmjs.org/@filoz/synapse-sdk/-/synapse-sdk-2.0.2.tgz",
+      "integrity": "sha512-PiYybc4FHq/YWHouZKiS9otp3e32agE2u0C26L04uPklfYMdVeagJV38LlppxDkSTmymHrxJ292i6kGZe9hG4A=="
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "fixtures": [
+    "ethers-js",
+    "synapse-sdk"
+  ],
+  "shape_and_semantic_rejections": 17,
+  "unchanged_sdk_rows_valid": 203,
+  "csv_roundtrip": "passed",
+  "normalization_and_inheritance": "passed",
+  "extended_schema": "passed",
+  "archive_integrity_and_exact_entry_files": "passed",
+  "upstream_sdk_execution": false
+}
